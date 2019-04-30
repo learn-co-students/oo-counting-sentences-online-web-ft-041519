@@ -17,7 +17,7 @@ class String
   def count_sentences
     self.squeeze('.!?').count('.!?') 
     
-    # .SQUEEZE REMOVES THE EXTRA .?! FROM THE COMPLEX SENTANCE EX: !!! MAKING IT POSSIBLE TO RUN .COUNT ON THE REMAINING.
+  
     
   end
 end
